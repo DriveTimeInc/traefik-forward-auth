@@ -3,8 +3,8 @@ image:
     repository: drivetimedevtest.azurecr.io/drivetimeinc/traefik-forward-auth
     tag: TONYISAPRETTYPONY
     pullPolicy: IfNotPresent
-nameOverride: process-control
-fullnameOverride: process-control
+nameOverride: process-control-auth
+fullnameOverride: process-control-auth
 namespace: platform-dev
 environment: dev
 labels:
